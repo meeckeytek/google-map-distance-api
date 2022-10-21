@@ -16,7 +16,7 @@ const frick2 = {lat: 40.771209, lng: -73.9673991};
 var config = {
   method: 'get',
   url: `https://maps.googleapis.com/maps/api/distancematrix/json?origins=Ikorodu-Ososun Rd, Ojota 105102, Lagos, Nigeria&destinations=San%20Francisco&key=${process.env.API_KEY}`,
-  // url: `https://maps.googleapis.com/maps/api/distancematrix/json?destinations=${frick1}&origins=${frick2.lat.frick2.lng}&key=AIzaSyBBQzQPEwaBK03fROk87JhGKihSIld3j7g`,
+  // url: `https://maps.googleapis.com/maps/api/distancematrix/json?destinations=${frick1}&origins=${frick2.lat.frick2.lng}&key=`,
   headers: { }
 };
 
